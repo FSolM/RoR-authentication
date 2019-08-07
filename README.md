@@ -1,12 +1,28 @@
-# Project: Members only
+# Authentication
+## Members Only
+### A Rails project using Rail's Authentification & Model Relationships
+#### Project 6
 
-This project is part of the Main Ruby on Rails curriculum at [Microverse](https://www.microverse.org/)
-* The goal was to understand how authentication, cookies & sessions work on Ruby on Rails.
-* The project was completed using Ruby on Rails.
+## Getting Started
 
-#### [Assignment link](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication)  
+To get started with the app, clone the repo and then install the needed gems:
 
-#### Authors
+```
+$ bundle install --without production
+```
 
-* [@FSolM](https://github.com/https://github.com/FSolM)
-* [@codingAngarita](https://github.com/codingAngarita)
+Migrate the DB:
+
+```
+$ rake db:migrate
+```
+
+Run the Rails Server
+
+```
+$ rails server
+```
+
+#### Created by:
+Carlos Sol: <a href="https://github.com/FSolM">@FSolM</a><br>
+Juan Escobar: <a href="https://github.com/codingAngarita">@codingAngarita</a>
