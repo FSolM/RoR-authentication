@@ -1,28 +1,30 @@
 # Authentication
-## Members Only
-### A Rails project using Rail's Authentification & Model Relationships
+### A Rails project using Rail's Authentication & Model Relationships
 #### Project 6
 
-## Getting Started
+## Usage & Installation
 
-To get started with the app, clone the repo and then install the needed gems:
+Install the necessary gems:
 
 ```
 $ bundle install --without production
 ```
 
-Migrate the DB:
+*The gems included in the project are no necessary up to date, be sure to update them before running the project to project it from vulnerabilities.*
+
+Migrate the local database:
 
 ```
-$ rake db:migrate
+$ rails db:migrate
 ```
 
-Run the Rails Server
+Run Rails app locally:
 
 ```
 $ rails server
 ```
 
 #### Created by:
-Carlos Sol: <a href="https://github.com/FSolM">@FSolM</a><br>
-Juan Escobar: <a href="https://github.com/codingAngarita">@codingAngarita</a>
+
+Carlos Sol: [@FSolM](https://github.com/FSolM)<br>
+Juan Escobar: [@codingAngarita](https://github.com/codingAngarita)
